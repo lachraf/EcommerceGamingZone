@@ -1,0 +1,53 @@
+const data = {
+  products: [
+    {
+      name: 'Raf Station : Ryzen 9 5950X - RTX 3090 - SSD 1To - RAM 32Go',
+      slug: 'Raf Station : Ryzen 9 5950X - RTX 3090 - SSD 1To - RAM 32Go',
+      category: 'Superior PC',
+      image: '/images/p1.jpg', // 679px × 829px
+      price: 5099,
+      countInStock: 10,
+      brand: 'Rayzen',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'PROCESSEUR AMD Ryzen 9 5950X AM4 - Carte Graphique Palit GeForce RTX 3090 GameRock - CARTE MERE ASUS TUF GAMING X570-PLUS (WI-FI) - WATERCOOLING Cooler Master ML240L RGB - SSD Samsung 980 PRO PCle 4.0 NVM M.2 - RAM TEAMGROUP ELITE DDR4 32 GB (16x2) 3200 MHZ - Alimentation MWE Gold V2 FM 750W A/EU Cable - BOITIER COOLERMASTER MASTERCASE H500P ARGB',
+    },
+    {
+      name: 'I9-12900KF - RTX 3090 Ti - SSD 1To - RAM 32Go',
+      slug: 'I9-12900KF - RTX 3090 Ti - SSD 1To - RAM 32Go',
+      category: 'Superior PC',
+      image: '/images/p2.jpg',
+      price: 5299,
+      countInStock: 0,
+      brand: 'Intel',
+      rating: 4.0,
+      numReviews: 10,
+      description: 'PROCESSEUR INTEL i9-12900KF - CARTE GRAPHIQUE PALIT GeForce RTX 3090 Ti GameRock - Carte mère ASUS PRIME Z690M-PLUS - Refroidisseur processeur MASTERLIQUID ML360 ILLUSION - Disque Dur Interne SSD 980 PRO PCle 4.0 NVM M.2 - BARRETTE MÉMOIRE TEAM GROUP ELITE DDR4 32 (16x2) GB 3200 MHZ - ALIMENTATION MWE Gold V2 FM 850W A/EU Cable - Boîtier Cooler Master COSMOS C700P Black Edition',
+    },
+    {
+      name: 'PC PORTABLE MSI GF65THIN 15.6" - I7-10750H - 16Go 512Go SSD - RTX 3060',
+      slug: 'PC PORTABLE MSI GF65THIN 15.6" - I7-10750H - 16Go 512Go SSD - RTX 3060',
+      category: 'Laptop',
+      image: '/images/p3.jpg',
+      price: 1299,
+      countInStock: 15,
+      brand: 'MSI',
+      rating: 4.5,
+      numReviews: 14,
+      description: 'Ecran 15.6" Full HD 144 Hz - Processeur Intel Core i7-10750H, up to 5 GHz, 12 Mo de mémoire cache - Mémoire 16 Go </br> Disque 512 Go SSD M.2 - Carte graphique Nvidia GeForce RTX 3060, 6 Go de mémoire dédiée - Clavier rétroéclairé </br> Wifi - Bluetooth - USB 3.2 Type-C - 3x USB 3.2 - HDMI - RJ45 - Webcam HD +  -  Casque MSI H991 Offerte',
+    },
+    {
+      name: 'Mini PCs ZOTAC MAGNUS ONE ECM73070C',
+      slug: 'Mini PCs ZOTAC MAGNUS ONE ECM73070C',
+      category: 'Mini PC',
+      image: '/images/p4.jpg',
+      price: 1999,
+      countInStock: 5,
+      brand: 'Zotac',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'Processeur Intel Core i7-10700 (8 cœurs 2,9 GHz, jusqu"à 4,8 GHz) - Mémoire 2 x slots SODIMM DDR4-2933 / 2666 (jusqu à 64 Go) - Moteur graphique ZOTAC GAMING GeForce RTX 3070 8 Go GDDR6 256 bits - Sortie vidéo 1 x HDMI 1.4, 1 x HDMI 2.1, 3 x DisplayPort 1.4a - Disque dur 1 x baie de disque dur / SSD SATA 6,0 Gbps 2,5 pouces - M.2 1 x emplacement SSD M.2 PCIe x4 / SATA (2242,2280), 1 x emplacement mémoire SSD M.2 PCIe x4 / Intel Optane (2242, 2280, 22110) - Lecteur de cartes 3 en 1 (SD / SDHC / SDXC) - l"audio Microphone, casque, HDMI - Port USB 4 x USB 3.1, 4 x USB 3.0 (1 Type-C) - LAN Double LAN - Antenne Double connecteur WiFI SMA - Wifi 6 AX1650 - Bluetooth 5 - Système refroidissement Ventilateur + dissipateur thermique - Dimensions de la ZBOX 265,5 mm x 126 mm x 249 mm',
+    },
+  ],
+};
+export default data;
